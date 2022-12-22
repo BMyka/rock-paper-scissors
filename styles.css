@@ -1,3 +1,11 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
 #game {
     display: flex;
     justify-content: center;
@@ -6,7 +14,7 @@
 }
 
 .square {
-    padding: 30px 60px;
+    padding: 50px 90px;
     border: 3px solid black;
     border-radius: 20px;
     text-align: center;
@@ -14,3 +22,53 @@
     font-size: 32px;
     font-weight: bold;
 }
+img {
+    width: 100px;
+    height: 100px;
+}
+
+.rock {
+    color: #FFD700;
+    background-image: url('images/rock.png');
+    background-size: cover;
+    background-position: center 33%;
+  }
+
+  .paper {
+    color: #FFD700;
+    background-image: url('images/paper.png');
+    background-size: 50%;
+    background-position: center;
+  }
+
+  .scissors {
+    color: #FFD700;
+    background-image: url('images/scissors.png');
+    background-size: 38%;
+    background-position: center;
+  }
+
+
+.question{
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+    background: #3882F6;
+    width: 100%;
+    padding: 12px;
+    border-radius: 15px;
+    border-color: black;
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+button{
+    font-size: 14px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    background-color: #3882F6;;
+}
+

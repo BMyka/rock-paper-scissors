@@ -2,15 +2,18 @@
 <html>
   <head>
     <link rel="stylesheet" href="styles.css">
+    <script src="javascript.js" defer></script>
     <title>Console Demo</title>
   </head>
   <body>
+    <h1 class="header">Computer vs Human... Who will win?</h1>
       <div id="game">
-        <div class="square" data-pick="1">Rock</div>
-        <div class="square" data-pick="2">Paper</div>
-        <div class="square" data-pick="3">Scissors</div>
+        <div class="square rock" data-pick="1"></div>
+        <div class="square paper" data-pick="2"></div>
+        <div class="square scissors" data-pick="3"></div>
       </div>
-    
-        <script src="javascript.js"></script>
+      <div class="result"></div>
+      <div class="score"></div>
+      <div id="container"></div>
   </body>
 </html>
